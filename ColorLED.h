@@ -45,7 +45,8 @@ public:
   uint16_t get_G_PWM_16() const { return L * G; }
   uint16_t get_B_PWM_16() const { return L * B; }
 
-  ColorLED operator +(const ColorLED & _value) { }
+  // const ColorLED operator +(const ColorLED & _v) const
+    // { return ColorLED(L + _v.L, R + _v.R, G + _v.G, B + _v.B); }
 
 private:
 
